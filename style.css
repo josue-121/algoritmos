@@ -1,0 +1,42 @@
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    padding: 30px 0 100px;
+    text-align: center;
+    background-color: rgb(167, 104, 104);
+    background-blend-mode: overlay, normal, normal, normal, normal;
+}
+
+h1{
+    color: #663658;
+    font-size: 52px;
+}
+
+h2{
+    color: #fff;
+    font-size: 40px;
+}
+p{
+    color: #fff;
+    font-size: 22px;
+}
+
+
+button{
+    background-color: transparent;
+    color: #fff;
+    padding: 14px 40px;
+    border: 2px solid white;
+    border-radius: 50px;
+    font-style: italic;
+    margin: 20px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(156, 34, 51);
+    color: #000;
+    border-radius: 0;
+}
